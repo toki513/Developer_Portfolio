@@ -73,7 +73,7 @@ ul li a{
     max-width: 800px;
     padding: 140px 110px;
     text-align: center;
-    margin: 200px auto;
+    margin: 100px auto 30px ;
 }
 .About-me{
     font-weight: bold;
@@ -90,4 +90,63 @@ ul li a{
 }
 .item-description{
     font-weight: 600;
+}
+
+.whatIDo{
+    max-width: 800px;
+    padding: 140px 110px;
+    text-align: center;
+    margin: 40px auto 30px;
+}
+.individual-task{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+
+.icon-description {
+    font-size: 18px;
+}
+.icon-name{
+    font-weight: 600;
+}
+.do-description{
+    font-size: 20px;
+}
+.resume{
+    margin: 40px 450px;
+   
+}
+.resume-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    max-width: 1200px;
+    padding: 40px 10px;
+    gap: 24px;
+}
+footer{
+    padding:130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-class{
+    background-color: bisque;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type = "text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
