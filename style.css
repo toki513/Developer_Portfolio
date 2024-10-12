@@ -41,6 +41,7 @@ ul li a{
     background-image: url(images/developer.png) ,url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left , bottom right;
+    background-color: bisque;
 }
 
 .banner{
@@ -66,4 +67,27 @@ ul li a{
 .profile-picture{
     width: 580px;
     height: 700px;
+}
+.about{
+    background-color: bisque;
+    max-width: 800px;
+    padding: 140px 110px;
+    text-align: center;
+    margin: 200px auto;
+}
+.About-me{
+    font-weight: bold;
+    font-size: 50px;
+}
+.about-description{
+    justify-content: center;
+    padding: 30px 50px;
+    font-size: 22px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
